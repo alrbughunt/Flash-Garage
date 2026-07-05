@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --electric: #0066ff;
+  --metal: #c0c0c0;
+  --asphalt: #333333;
+  --garage-black: #05070b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--garage-black);
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(0, 102, 255, 0.8);
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.garage-text-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #c0c0c0 45%, #0066ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.garage-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .soft-pulse {
+    animation: softPulse 4s ease-in-out infinite;
+  }
+
+  @keyframes softPulse {
+    0%,
+    100% {
+      opacity: 0.75;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.015);
+    }
+  }
+}

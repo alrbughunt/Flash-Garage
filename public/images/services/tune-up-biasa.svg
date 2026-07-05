@@ -1,0 +1,31 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="800" fill="#05070B"/>
+<rect x="40" y="40" width="1120" height="720" rx="72" fill="url(#paint0_radial)" stroke="#C0C0C0" stroke-opacity="0.18" stroke-width="2"/>
+<path d="M0 580L1200 340" stroke="#0066FF" stroke-opacity="0.22" stroke-width="90"/>
+<path d="M84 652L1130 443" stroke="#C0C0C0" stroke-opacity="0.16" stroke-width="18"/>
+<g opacity="0.25">
+<path d="M120 160H1080" stroke="#FFFFFF" stroke-opacity="0.22"/>
+<path d="M120 260H1080" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M120 360H1080" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M120 460H1080" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M120 560H1080" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M240 96V704" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M480 96V704" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M720 96V704" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<path d="M960 96V704" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</g>
+<rect x="110" y="112" width="260" height="260" rx="52" fill="#0066FF" fill-opacity="0.18" stroke="#0066FF" stroke-width="5"/>
+<text x="240" y="274" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="92" fill="#FFFFFF">TU</text>
+<text x="112" y="505" font-family="Arial Black, Arial, sans-serif" font-size="58" fill="#FFFFFF">Tune Up Biasa</text>
+<text x="116" y="575" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" fill="#C0C0C0">Placeholder layanan - ganti dengan foto asli</text>
+<path d="M836 150L758 280H830L710 520L750 344H676L836 150Z" fill="#0066FF"/>
+<circle cx="930" cy="470" r="92" stroke="#C0C0C0" stroke-opacity="0.4" stroke-width="24"/>
+<circle cx="930" cy="470" r="44" stroke="#0066FF" stroke-width="18"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(224 110) rotate(42) scale(954 730)">
+<stop stop-color="#0066FF" stop-opacity="0.38"/>
+<stop offset="0.5" stop-color="#111827"/>
+<stop offset="1" stop-color="#05070B"/>
+</radialGradient>
+</defs>
+</svg>
