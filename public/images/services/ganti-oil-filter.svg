@@ -1,0 +1,52 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </linearGradient>
+    <radialGradient id="glow5" cx="60%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#0066FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="filterBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg5)"/>
+  <rect width="600" height="400" fill="url(#glow5)"/>
+
+  <!-- Oil filter cartridge (cylinder) -->
+  <g transform="translate(240,90)">
+    <ellipse cx="60" cy="20" rx="60" ry="18" fill="#0066FF"/>
+    <rect x="0" y="20" width="120" height="180" fill="url(#filterBody)"/>
+    <ellipse cx="60" cy="200" rx="60" ry="18" fill="#111827" stroke="#0066FF" stroke-width="2"/>
+    <!-- pleats -->
+    <g stroke="#0B1220" stroke-width="2" opacity="0.6">
+      <line x1="15" y1="30" x2="15" y2="190"/>
+      <line x1="35" y1="34" x2="35" y2="194"/>
+      <line x1="55" y1="36" x2="55" y2="196"/>
+      <line x1="75" y1="36" x2="75" y2="196"/>
+      <line x1="95" y1="34" x2="95" y2="194"/>
+      <line x1="105" y1="30" x2="105" y2="190"/>
+    </g>
+    <!-- top bolt hex -->
+    <g transform="translate(60,20)">
+      <polygon points="0,-14 12,-7 12,7 0,14 -12,7 -12,-7" fill="#95B9FF"/>
+    </g>
+  </g>
+
+  <!-- Wrench doing the twist -->
+  <g transform="translate(400,150) rotate(20)">
+    <rect x="0" y="-10" width="110" height="20" rx="10" fill="#C0C0C0"/>
+    <path d="M100 -22 a22 22 0 1 1 0 44 a22 22 0 0 1 0 -44 z M100 -10 a10 10 0 1 0 0 20 a10 10 0 0 0 0 -20 z" fill="#C0C0C0"/>
+  </g>
+
+  <!-- Drip accent -->
+  <path d="M180 250 C180 265 168 273 168 285 a12 12 0 0 0 24 0 C192 273 180 265 180 250 Z" fill="#0066FF"/>
+
+  <g transform="translate(40,40)">
+    <rect width="150" height="34" rx="17" fill="#0066FF" opacity="0.15" stroke="#0066FF" stroke-width="1.5"/>
+    <text x="75" y="22" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#95B9FF" text-anchor="middle" letter-spacing="1">HOME SERVICE</text>
+  </g>
+</svg>
